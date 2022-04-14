@@ -5,6 +5,7 @@
 ### 0. Create nuxt app
 
 create-nuxt-app v4.0.0
+
 ✨ Generating Nuxt.js project in nuxt-imin-app
 
 - Project name: nuxt-imin-app
@@ -19,3 +20,15 @@ create-nuxt-app v4.0.0
 - Development tools:
 - Continuous integration: None
 - Version control system: Git
+
+### 1. Prettier
+
+```
+// For prettier setting in .prettierrc
+
+{
+  "printWidth": 120,
+  "singleQuote": true,
+  "arrowParens": "avoid"
+}
+```
