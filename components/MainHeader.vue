@@ -11,7 +11,7 @@
         <div class="title">그룹1</div>
         <div class="divider"></div>
         <div class="description">그룹 기타 설명</div>
-        <div class="add-party">파티 추가</div>
+        <nuxt-link to="/party" class="add-party">파티 추가</nuxt-link>
       </div>
     </div>
   </header>
@@ -24,6 +24,10 @@ export default {
 </script>
 
 <style scoped>
+a {
+  color: inherit;
+  text-decoration: none;
+}
 .inner {
   width: 360px;
   height: 180px;
@@ -63,5 +67,10 @@ export default {
   border: 1px solid #373737;
   border-radius: 14px;
   font-size: 14px;
+  transition: 0.1s;
+}
+.group .add-party:hover {
+  background-color: #373737;
+  color: #fff;
 }
 </style>
