@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'nuxt-imin-app',
     htmlAttrs: {
-      lang: 'en',
+      lang: 'ko',
     },
     meta: [
       { charset: 'utf-8' },
